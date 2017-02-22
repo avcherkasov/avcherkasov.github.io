@@ -1,6 +1,10 @@
-box: debian
+box: python
 
 build:
+  steps:
+    - pip-install
+
+deploy:
   steps:
     - lukevivier/gh-pages:
       token: ${GITHUB_API_TOKEN}
