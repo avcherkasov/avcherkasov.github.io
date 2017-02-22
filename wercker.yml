@@ -3,3 +3,4 @@ box: python
 build:
   steps:
     - lukevivier/gh-pages:
+      token: ${GITHUB_API_TOKEN}
