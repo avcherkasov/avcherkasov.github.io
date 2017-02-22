@@ -6,5 +6,9 @@ build:
 
 deploy:
   steps:
-    - lukevivier/gh-pages:
-      token: ${GITHUB_API_TOKEN}
+    - install-packages:
+      packages: git ssh-client
+    - leipert/git-push:
+       gh_oauth: ${GITHUB_API_TOKEN}
+       branch: master
+       basedir: .
