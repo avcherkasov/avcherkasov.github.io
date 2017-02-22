@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+[![wercker status](https://app.wercker.com/status/180e24a0420ace47565306646220d272/s/master "wercker status")](https://app.wercker.com/project/byKey/180e24a0420ace47565306646220d272)
+
 You can use the [editor on GitHub](https://github.com/avcherkasov/avcherkasov.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
