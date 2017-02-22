@@ -1,4 +1,4 @@
-box: python
+box: debian
 
 build:
   steps:
